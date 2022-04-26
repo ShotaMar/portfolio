@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway','Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-display: swap;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* TopPage */
+.top-page-container {
+  width: 100vw;
+  height: 100vw;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header > h1 {
+  margin: 1rem;
+}
+
+.header-menu > a {
+  margin: 0 3rem;
+}
+
+.main-visual {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(204, 224, 224);
+}

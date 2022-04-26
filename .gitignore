@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/portfolio-client/node_modules
+/portfolio-client/.pnp
+/portfolio-client.pnp.js
+
+# testing
+/portfolio-client/coverage
+
+# production
+/portfolio-client/build
+
+# misc
+/portfolio-client.DS_Store
+/portfolio-client.env.local
+/portfolio-client.env.development.local
+/portfolio-client.env.test.local
+/portfolio-client.env.production.local
+
+/portfolio-clientnpm-debug.log*
+/portfolio-clientyarn-debug.log*
+/portfolio-clientyarn-error.log*
